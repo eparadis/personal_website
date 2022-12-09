@@ -15,7 +15,7 @@ body {
 #left-column {
     /* left column */
     width: 197px;
-    height: 812px;
+    /* height: 812px; */
     /* Inside auto layout */
     flex: none;
     order: 0;
@@ -32,7 +32,7 @@ body {
     padding: 28px 0px 0px;
     gap: 10px;
     width: 540px;
-    height: 582px;
+    /* height: 582px; */
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -42,7 +42,7 @@ body {
 #right-column {
     /* right column */
     width: 269px;
-    height: 812px;
+    /* height: 812px; */
     /* Inside auto layout */
     flex: none;
     order: 2;
