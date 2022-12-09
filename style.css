@@ -1,0 +1,272 @@
+body {
+    /* Homepage screen */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    position: relative;
+    width: 1280px;
+    height: 832px;
+    background: #EEEEEE;
+}
+
+#left-column {
+    /* left column */
+    width: 197px;
+    height: 812px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#center-column {
+    /* center column */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px 0px 0px;
+    gap: 10px;
+    width: 540px;
+    height: 582px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#right-column {
+    /* right column */
+    width: 269px;
+    height: 812px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#header {
+    /* Header */
+    width: 540px;
+    height: 202px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#logo {
+    /* image or logo or something */
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    right: 1px;
+    top: 0px;
+    background: #FBD3BC;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#first-name {
+    /* Ed Paradis */
+    position: absolute;
+    width: 195px;
+    height: 202px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 175px;
+    line-height: 130px;
+    /* or 75% */
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#last-name {
+    /* Ed Paradis */
+    position: absolute;
+    width: 195px;
+    height: 202px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 66px;
+    /* or 100% */
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#nav {
+    /* Nav */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 540px;
+    height: 342px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#portfolio-projects {
+    /* Nav Item */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 0px 0px 11px;
+    gap: 10px;
+    width: 540px;
+    height: 78px;
+    background: #C7F2E0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#portfolio-projects a {
+    /* Portfolio Projects */
+    width: 364px;
+    height: 64px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#fun-projects {
+    /* Nav Item */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 0px 0px 11px;
+    gap: 10px;
+    width: 432px;
+    height: 78px;
+    background: #FECEA1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#fun-projects a {
+    /* Fun Projects */
+    width: 258px;
+    height: 64px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#articles {
+    /* Nav Item */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 0px 0px 11px;
+    gap: 10px;
+    width: 324px;
+    height: 78px;
+    background: #F4BBE4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#articles a {
+    /* Articles */
+    width: 162px;
+    height: 64px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#misc {
+    /* Nav Item */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 0px 0px 11px;
+    gap: 10px;
+    width: 215px;
+    height: 78px;
+    background: #C7E0F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+#misc a {
+    /* Misc */
+    width: 101px;
+    height: 64px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
