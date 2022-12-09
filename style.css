@@ -79,16 +79,31 @@ body {
     flex-grow: 0;
 }
 
-#first-name {
-    /* Ed Paradis */
+#name {
+    /* name */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
     width: 195px;
-    height: 202px;
+    height: 197px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#first {
+    /* Ed */
+    width: 195px;
+    height: 131px;
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
     font-size: 175px;
     line-height: 130px;
-    /* or 75% */
+    /* identical to box height, or 75% */
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     /* Inside auto layout */
@@ -97,21 +112,21 @@ body {
     flex-grow: 0;
 }
 
-#last-name {
-    /* Ed Paradis */
+#last {
+    /* Paradis */
     width: 195px;
-    height: 202px;
+    height: 66px;
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
     font-size: 66px;
     line-height: 66px;
-    /* or 100% */
+    /* identical to box height, or 100% */
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     /* Inside auto layout */
     flex: none;
-    order: 0;
+    order: 1;
     flex-grow: 0;
 }
 
