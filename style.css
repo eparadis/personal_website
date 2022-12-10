@@ -57,7 +57,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0px 0px 0px 10px;
     width: 540px;
     height: 202px;
     /* Inside auto layout */
