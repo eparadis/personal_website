@@ -294,3 +294,11 @@ body {
     order: 0;
     flex-grow: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
