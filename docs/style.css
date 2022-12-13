@@ -1,3 +1,5 @@
+/* this is what it looks like when you more or less cut-and-paste CSS straight from Figma. Could be worse. */
+
 body {
     /* Homepage screen */
     /* Auto layout */
@@ -30,7 +32,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     padding: 28px 0px 0px;
-    gap: 10px;
+    gap: 14px;
     width: 540px;
     /* height: 582px; */
     /* Inside auto layout */
@@ -301,4 +303,37 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#footer {
+    /* Footer */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 60px 0px 0px;
+    gap: 10px;
+    width: 406px;
+    height: 156px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#footer p {
+    width: 340px;
+    /* height: 96px; */
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    /* line-height: 16px; */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
